@@ -58,8 +58,8 @@
 						
 						<div class="carousel-caption">
 
-							<h1><span>This is Hazel Apondi's website.<br/> Hazel is an Entrepreneur-in-Training at <u><a href="http://meltwater.org/">MEST</a></u> in Accra, Ghana. </br>
-							Prior to joining MEST, she interned at Commercial Bank of Africa in Kenya. </br> Scroll down to learn more about her.</span></h1>
+							<h1><span>Hi and Thank You for visiting my Website</br>My name is Hazel Apondi, an Entrepreneur-in-Training at <u><a href="http://meltwater.org/">MEST</a></u> in Accra, Ghana. </br>
+							Prior to joining MEST, I interned at Commercial Bank of Africa in Kenya. </br> Scroll down to learn more about me.</span></h1>
 							
 						</div>
 					</div>
@@ -245,32 +245,8 @@
 					</div>
 					
 					<div class="sec-sub-title text-center">
-						<p>Drop me a message with your name and email. Feel free to ask any further questions. We could work on project(s).</br> TL;DR Just want to say hi? Cool, let's chat.</p>
-					</div>
-					
-					
-					<div class="col-lg-8 col-md-8 col-sm-7 col-xs-12 w">
-						<div class="contact-form">
-							<h3>Howdy!</h3>
-							<form action="#" id="contact-form">
-								<div class="input-group name-email">
-									<div class="input-field">
-										<input type="text" name="name" id="name" placeholder="Name" class="form-control">
-									</div>
-									<div class="input-field">
-										<input type="email" name="email" id="email" placeholder="Email" class="form-control">
-									</div>
-								</div>
-								<div class="input-group">
-									<textarea name="message" id="message" placeholder="Message" class="form-control"></textarea>
-								</div>
-								<div class="input-group">
-									<input type="submit" id="form-submit" class="pull-right" value="Send message">
-								</div>
-							</form>
-						</div>
-					</div>
-				
+						<p>Reach out to me on LinkedIn or Twitter (handles below). </br> Drop me a message with your name and email. Feel free to ask any further questions. We could work on project(s).</br> </br> <strong>TL;DR</strong> Just want to say hi? Cool, let's chat.</p>
+					</div>				
 				</div>
 			</div>
 		</section>
@@ -332,75 +308,7 @@
         <script src="js/jquery.easing.min.js"></script>
 		<!-- jquery easing -->
         <script src="js/wow.min.js"></script>
-		<!--<script>
-			var wow = new WOW ({
-				boxClass:     'wow',      // animated element css class (default is wow)
-				animateClass: 'animated', // animation css class (default is animated)
-				offset:       120,          // distance to the element when triggering the animation (default is 0)
-				mobile:       false,       // trigger animations on mobile devices (default is true)
-				live:         true        // act on asynchronously loaded content (default is true)
-			  }
-			);
-			wow.init();
-		</script>
-		-->	
-
 		<!-- Custom Functions -->
-        <script src="js/custom.js"></script>
-		
-		<script type="text/javascript">
-			$(function(){
-			
-				
-				$('#contact-form').validate({
-					rules: {
-						name: {
-							required: true,
-							minlength: 2
-						},
-						email: {
-							required: true,
-							email: true
-						},
-						message: {
-							required: true
-						}
-					},
-					messages: {
-						name: {
-							required: "What is your name?",
-							minlength: "Your name must contain at least 2 characters."
-						},
-						email: {
-							required: "What is your email address?"
-						},
-						message: {
-							required: "Drop me a message",
-							minlength: "A paragraph or less will do."
-						}
-					},
-					submitHandler: function(form) {
-						$(form).ajaxSubmit({
-							type:"POST",
-							data: $(form).serialize(),
-							url:"process.php",
-							success: function() {
-								$('#contact-form :input').attr('disabled', 'disabled');
-								$('#contact-form').fadeTo( "slow", 0.15, function() {
-									$(this).find(':input').attr('disabled', 'disabled');
-									$(this).find('label').css('cursor','default');
-									$('#success').fadeIn();
-								});
-							},
-							error: function() {
-								$('#contact-form').fadeTo( "slow", 0.15, function() {
-									$('#error').fadeIn();
-								});
-							}
-						});
-					}
-				});
-			});
-		</script>
+        <script src="js/custom.js"></script>		
     </body>
 </html>
