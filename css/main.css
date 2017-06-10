@@ -22,20 +22,7 @@ figure, p {
 }
 
 a {
-    color: #673AB7;
-}
-
-iframe {
-    border: 0;
-}
-
-a, a:focus, a:hover {
-    text-decoration: none;
-    outline: 0;
-}
-
-a:focus, a:hover {
-    color: #6CB670;
+    color: #00dffc;
 }
 
 h1, h2, h3,
@@ -100,38 +87,6 @@ body > section,
 	margin-bottom: 50px;
 }
 
-/*=========================================
-	Header
-==========================================*/
-
-#navigation {
-  background-color: rgba(16, 22, 54, 0.2);
-  border: 0 none;
-  margin: 0;
-}
-
-.navbar-toggle i {
-	color: #fff;
-}
-
-.navbar-brand {
-  padding: 0;
-}
-
-.navbar-nav li a {
-	border-top: 1px solid transparent;
-}
-
-.navbar-nav li a.current,
-.navbar-nav li a:focus,
-.navbar-nav li a:hover {
-	background-color: transparent;
-	border-top: 1px solid #32B0EE;
-	color: #fff;
-}
-
-
-
 
 /*=========================================
 	Slider
@@ -146,73 +101,10 @@ body > section,
 }
 
 .carousel-caption {
-  top: 20%;
+  top: 25%;
 }
 
 
-/*=========================================
-	Education
-==========================================*/
-
-.education {
-  background-color: #f4f7f9;
-}
-
-.service-desc {
-  margin-left: 70px;
-  position: relative;
-  top: 15px;
-}
-
-.service-desc h3 {
-  color: #062033;
-  font-size: 20px;
-  font-weight: 400;
-  margin-bottom: 15px;
-}
-
-
-
-
-/*=========================================
-	More
-==========================================*/
-
-.member-thumb {
-  width: 273px;
-  position: relative;
-}
-
-.member-thumb .overlay h5 {
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 24px;
-  margin: 10px 0;
-}
-
-.member-thumb .overlay {
-	font-size: 16px;
-	padding: 20px;
-	line-height: 24px;
-}
-
-.skillset h4 {
-  color: #062033;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 24px;
-  margin: 15px 0 8px;
-}
-
-.member-thumb:hover .overlay {
-	cursor: pointer;
-	opacity: 1;
-	filter: alpha(opacity=100);
-}
-
-.skillset:hover h4 {
-  color: #673AB7;
-}
 
 
 /*=========================================
@@ -274,8 +166,8 @@ body > section,
 
 
 .footer {
-  background-color: #1ea78d;
-  border-top: 5px solid #062033;
+  background-color: #335A79;
+  
   color: #fff;
 }
 
